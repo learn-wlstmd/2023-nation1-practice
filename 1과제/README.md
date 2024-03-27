@@ -1,6 +1,6 @@
 ## 파일 옮기기
 ```
-scp -i /path/to/mykey.pem -r Downloads/Zip/ ec2-user@서버주소:/
+scp -i "wsi.pem" -r ./spring-boot-aws-deploy/ ec2-user@52.79.121.14:/home/ec2-user/
 ```
 
 ## MySQL install in Amazon Linux 2023
